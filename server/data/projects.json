@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Financial Fraud Detection System",
+    "description": "Developed a machine learning model to detect fraudulent transactions in real-time. Processed over 1M+ records, achieving 98% accuracy. Reduced manual review time by 40%.",
+    "techStack": ["Python","Scikit-learn","SQL","Pandas"],
+    "category": "AI",
+    "link": null,
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80",
+    "problem": null,
+    "solution": null,
+    "impact": null
+  },
+  {
+    "id": 2,
+    "title": "Automated Invoice Processing RPA",
+    "description": "Built an end-to-end RPA solution using Power Automate to extract data from invoices and update the ERP system. Eliminated data entry errors and saved 20 hours/week.",
+    "techStack": ["Power Automate","Python","Azure OCR"],
+    "category": "Automation",
+    "link": null,
+    "imageUrl": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?auto=format&fit=crop&q=80",
+    "problem": null,
+    "solution": null,
+    "impact": null
+  },
+  {
+    "id": 3,
+    "title": "Executive Sales Analytics Dashboard",
+    "description": "Designed an interactive Power BI dashboard tracking KPIs like revenue growth, churn rate, and regional performance. Enabled data-driven decision making for the leadership team.",
+    "techStack": ["Power BI","DAX","SQL Server"],
+    "category": "Data",
+    "link": null,
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80",
+    "problem": null,
+    "solution": null,
+    "impact": null
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "SQL", "category": "Data"},
+  {"id": 2, "name": "Python (Pandas, NumPy)", "category": "Data"},
+  {"id": 3, "name": "Power BI", "category": "Data"},
+  {"id": 4, "name": "Machine Learning", "category": "AI"},
+  {"id": 5, "name": "NLP", "category": "AI"},
+  {"id": 6, "name": "Scikit-learn", "category": "AI"},
+  {"id": 7, "name": "Power Automate", "category": "Automation"},
+  {"id": 8, "name": "Selenium", "category": "Automation"},
+  {"id": 9, "name": "Git", "category": "Tools"},
+  {"id": 10, "name": "VS Code", "category": "Tools"}
+]
