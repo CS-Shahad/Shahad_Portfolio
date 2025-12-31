@@ -50,7 +50,7 @@ export function Navigation() {
           onClick={(e) => scrollToSection(e, "#home")}
           className="text-xl font-bold tracking-tighter text-slate-900"
         >
-          S.Al-Matrafi
+          Shahad Al-Matrafi
         </a>
 
         {/* Desktop Nav */}

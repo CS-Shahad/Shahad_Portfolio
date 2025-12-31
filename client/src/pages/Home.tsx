@@ -69,7 +69,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                I'm Shahad Al-Matrafi, a Data & AI Professional specializing in predictive analytics, 
+                I'm Shahad Al-Matrafi, a Data & AI Professional, specializing in predictive analytics, 
                 automation pipelines, and turning raw data into strategic business value.
               </p>
               
