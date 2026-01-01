@@ -12,22 +12,6 @@
   {"id": 11, "name": "Data Scraping", "category": "Automation"},
   {"id": 12, "name": "API integrations", "category": "Automation"},
   {"id": 13, "name": "Algorithms", "category": "AI"},
-  {"id": 14, "name": "Features Engineering", "category": "AI"},
-  {"id": 15, "name": "Python (Pandas, NumPy)", "category": "Data"},
-  {"id": 16, "name": "SQL (Joins, Window Functions, CTEs)", "category": "Data"},
-  {"id": 17, "name": "Data Visualization", "category": "Data"},
-  {"id": 18, "name": "Python (Pandas, NumPy, Matplotlib, Seaborn)", "category": "Data"},
-  {"id": 19, "name": "Data Cleaning & Preprocessing", "category": "Data"},
-  {"id": 20, "name": "Statistical Analysis", "category": "Data"},
-  {"id": 21, "name": "Machine Learning (Supervised, Unsupervised)", "category": "AI"},
-  {"id": 22, "name": "Scikit-learn / TensorFlow / Keras", "category": "AI"},
-  {"id": 23, "name": "Model Evaluation & Tuning", "category": "AI"},
-  {"id": 24, "name": "Selenium / Web Automation", "category": "Automation"},
-  {"id": 25, "name": "API Integrations (REST, JSON)", "category": "Automation"},
-  {"id": 26, "name": "Git / GitHub / Version Control", "category": "Data"},
-  {"id": 27, "name": "Jupyter Notebooks", "category": "Data"},
-  {"id": 28, "name": "Docker", "category": "Data"},
-  {"id": 29, "name": "CI/CD", "category": "Data"}
+  {"id": 14, "name": "Python (Pandas, NumPy)", "category": "Data"}
 ]
-// Docker أو CI/CD يرفع المستوى، خصوصًا لو تقدمي لوظائف AI أو Data Engineering.
 

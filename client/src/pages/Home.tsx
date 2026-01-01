@@ -335,7 +335,7 @@ export default function Home() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="you@company.com" {...field} className="bg-slate-50 border-slate-200 focus:border-slate-400" />
+                          <Input placeholder="name@company.com" {...field} className="bg-slate-50 border-slate-200 focus:border-slate-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
