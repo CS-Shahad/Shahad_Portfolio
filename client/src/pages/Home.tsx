@@ -286,9 +286,23 @@ export default function Home() {
           <div className="bg-slate-900 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
             <div className="p-8 md:p-12 md:w-2/5 bg-slate-800 text-white flex flex-col justify-between">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Let's Talk</h2>
-                <p className="text-slate-300 mb-8 leading-relaxed">
+                {/* <h2 className="text-3xl font-bold mb-6">Let's Talk</h2> */}
+                <h2 className="text-2xl font-bold mb-6 text-slate-200">
+                  Let’s build something impactful !
+                </h2>
+
+                
+                {/* <p className="text-slate-300 mb-8 leading-relaxed">
                   I'm currently open to full-time roles in Data Science, Analytics, and AI Engineering.
+                </p> */}
+
+
+
+                {/* <p className="text-slate-300 mb-8 leading-relaxed">
+                  Let’s build something impactful!
+                </p> */}
+                <p className="text-slate-300 mb-8 leading-relaxed">
+                  Reach out to collaborate on roles or challenges in Automation, Data Science and AI Engineering.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
@@ -296,8 +310,8 @@ export default function Home() {
                       <Send className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="font-medium text-white">Email Me</div>
-                      <div className="text-slate-400 text-sm mt-1">contact@shahad.ai</div>
+                      <div className="font-medium text-white">Email Me:</div>
+                      <div className="text-slate-400 text-sm mt-1">shahadalmatrafi5@gmail.com</div>
                     </div>
                   </div>
                 </div>
@@ -305,8 +319,8 @@ export default function Home() {
               
               <div className="mt-12 md:mt-0 pt-8 border-t border-slate-700">
                 <p className="text-slate-400 text-sm">
-                  Based in Riyadh, KSA<br/>
-                  Open to Remote Work
+                  Based in Makkah, KSA<br/>
+                  Willing to relocate for the right opportunity
                 </p>
               </div>
             </div>
