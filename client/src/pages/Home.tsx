@@ -290,17 +290,11 @@ export default function Home() {
                 <h2 className="text-2xl font-bold mb-6 text-slate-200">
                   Let’s build something impactful !
                 </h2>
-
                 
                 {/* <p className="text-slate-300 mb-8 leading-relaxed">
                   I'm currently open to full-time roles in Data Science, Analytics, and AI Engineering.
                 </p> */}
 
-
-
-                {/* <p className="text-slate-300 mb-8 leading-relaxed">
-                  Let’s build something impactful!
-                </p> */}
                 <p className="text-slate-300 mb-8 leading-relaxed">
                   Reach out to collaborate on roles or challenges in Automation, Data Science and AI Engineering.
                 </p>
