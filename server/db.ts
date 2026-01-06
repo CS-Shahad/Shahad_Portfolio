@@ -1,24 +1,38 @@
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Render + Node production safe
+const dataDir = path.join(process.cwd(), "server", "data");
 
-const dataDir = path.join(__dirname, "data");
+const projectsFile = path.join(dataDir, "projects.json");
+const skillsFile = path.join(dataDir, "skills.json");
+const messagesFile = path.join(dataDir, "messages.json");
 
-function readJSON(file: string) {
-  return JSON.parse(
-    fs.readFileSync(path.join(dataDir, file), "utf-8")
-  );
-}
-
+// Projects
 export function getProjects() {
-  return readJSON("projects.json");
+  return JSON.parse(fs.readFileSync(projectsFile, "utf-8"));
 }
 
+export function saveProjects(projects: any[]) {
+  fs.writeFileSync(projectsFile, JSON.stringify(projects, null, 2));
+}
+
+// Skills
 export function getSkills() {
-  return readJSON("skills.json");
+  return JSON.parse(fs.readFileSync(skillsFile, "utf-8"));
+}
+
+export function saveSkills(skills: any[]) {
+  fs.writeFileSync(skillsFile, JSON.stringify(skills, null, 2));
+}
+
+// Messages
+export function getMessages() {
+  return JSON.parse(fs.readFileSync(messagesFile, "utf-8"));
+}
+
+export function saveMessages(messages: any[]) {
+  fs.writeFileSync(messagesFile, JSON.stringify(messages, null, 2));
 }
 
 // برضو ما يقرا منها الريندر 
