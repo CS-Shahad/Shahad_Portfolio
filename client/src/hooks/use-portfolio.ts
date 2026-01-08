@@ -1,5 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { api, type InsertMessage } from "@shared/routes";
+import { api } from "@shared/routes";
+import {type InsertMessage } from "@shared/schema";
 import { useToast } from "@/hooks/use-toast";
 
 // Projects Hook
@@ -33,10 +34,15 @@ export function useSendMessage() {
   return useMutation({
     mutationFn: async (data: InsertMessage) => {
       const validated = api.contact.submit.input.parse(data);
-      const res = await fetch(api.contact.submit.path, {
-        method: api.contact.submit.method,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(validated),
+      // const res = await fetch(api.contact.submit.path, {
+      //   method: api.contact.submit.method,
+      //   headers: { "Content-Type": "application/json" },
+      //   body: JSON.stringify(validated),
+      // });
+      const res = await fetch("https://formspree.io/f/mjgkqdqz", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(validated),
       });
       
       if (!res.ok) {

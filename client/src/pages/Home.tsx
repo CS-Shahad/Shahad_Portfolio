@@ -329,7 +329,7 @@ export default function Home() {
                       <FormItem>
                         <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your full name" {...field} className="bg-slate-50 border-slate-200 focus:border-slate-400" />
+                          <Input placeholder="Your name" {...field} className="bg-slate-50 border-slate-200 focus:border-slate-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
